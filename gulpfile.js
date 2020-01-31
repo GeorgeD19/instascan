@@ -19,7 +19,7 @@ function build(file) {
     })
     .transform(babelify, {
       ignore: /zxing\.js$/i,
-      presets: ['es2015'],
+      presets: ['es2015','@babel/preset-env'],
       plugins: ['syntax-async-functions', 'transform-regenerator']
     })
     .bundle()

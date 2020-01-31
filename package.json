@@ -43,6 +43,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.8.4",
     "babel-polyfill": "^6.9.1",
     "fsm-as-promised": "^0.13.0",
     "idempotent-babel-polyfill": "^7.4.4",
